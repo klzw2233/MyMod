@@ -1,0 +1,8 @@
+{
+	"id":"MyMod_1",
+	"name":"我的第一个模组",
+	"version":"0.1",
+	"author":"kkll6",
+	"description":"加入强力船插、飞机、能量武器。修改工业规划技能 +10产出 500%重工业造船产出 失败",
+	"gameVersion": "0.95.1a-RC6"
+}

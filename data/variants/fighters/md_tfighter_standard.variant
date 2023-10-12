@@ -1,0 +1,30 @@
+{
+  "variantId": "md_tfighter_standard",
+  "hullId": "md_tfighter",
+  "displayName": "重型战斗机",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "irpulse",
+        "WS0002": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

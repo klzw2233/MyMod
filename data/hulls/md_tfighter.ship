@@ -1,0 +1,62 @@
+{
+  "hullName": "钛战机",
+  "hullId": "md_tfighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/md_tfighter.png",
+  "style": "HIGH_TECH",
+  "height": 48,
+  "width": 48,
+  "center": [24, 24],
+  "collisionRadius": 29.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "MD_Archotech_01"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [7.5, -6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [7.5, 6]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8.5, -0],
+      "length": 13,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -17.5, 19.5,
+    17.5, 19.5,
+    17.5, -19.5,
+    -17.5, -19.5
+  ]
+}
