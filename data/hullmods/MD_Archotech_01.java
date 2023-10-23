@@ -64,9 +64,10 @@ public class MD_Archotech_01 extends BaseHullMod {
             stats.getBallisticWeaponRangeBonus().modifyPercent(id,n1);
             stats.getMissileWeaponRangeBonus().modifyPercent(id,n1);
         */
-        stats.getEnergyWeaponRangeBonus().modifyFlat(id,n2);//+300基础射程
+        //能量 光束 导弹 实弹，射程
+        stats.getEnergyWeaponRangeBonus().modifyFlat(id,n2);
         stats.getBallisticWeaponRangeBonus().modifyFlat(id,n2);
-        stats.getMissileWeaponRangeBonus().modifyPercent(id,n2);//导弹+300%射程
+        stats.getMissileWeaponRangeBonus().modifyPercent(id,n2);
         stats.getBeamWeaponRangeBonus().modifyFlat(id,n2);
         
         //增加伤害+100% 能量、光束、实弹、导弹
@@ -103,9 +104,9 @@ public class MD_Archotech_01 extends BaseHullMod {
         stats.getArmorBonus().modifyPercent(id,n1);//装甲值
         stats.getHullBonus().modifyPercent(id,n1);//船体
 
-        stats.getMaxSpeed().modifyFlat(id,n1);//最大速度加100
-        stats.getAcceleration().modifyPercent(id,n1);//加速度翻倍
-        stats.getDeceleration().modifyPercent(id,n1);//减速度翻倍
+        stats.getMaxSpeed().modifyFlat(id,n1);//最大速度加
+        stats.getAcceleration().modifyPercent(id,n1);//加速度
+        stats.getDeceleration().modifyPercent(id,n1);//减速度
         stats.getMaxTurnRate().modifyPercent(id,n1);//转向
 
         stats.getFluxCapacity().modifyPercent(id,n2);//幅能容量
