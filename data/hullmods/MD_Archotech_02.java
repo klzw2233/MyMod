@@ -18,7 +18,7 @@ public class MD_Archotech_02 extends BaseHullMod {
 
     protected static final float n1 = 10000;
     protected static final float n2 = -50;
-    protected static final float n3 = 500;
+    protected static final float n3 = 5000;
     
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 
@@ -41,9 +41,9 @@ public class MD_Archotech_02 extends BaseHullMod {
         stats.getSensorStrength().modifyPercent(id,n1);
         
         //打捞起重机 5倍打捞 全部不包含稀有 包含稀有 战后打捞
-        stats.getDynamic().getMod(Stats.SALVAGE_VALUE_MULT_MOD).modifyFlat(id, n3);
+        //stats.getDynamic().getMod(Stats.SALVAGE_VALUE_MULT_MOD).modifyFlat(id, n3);
         stats.getDynamic().getMod(Stats.SALVAGE_VALUE_MULT_FLEET_INCLUDES_RARE).modifyFlat(id, n3);
-        stats.getDynamic().getMod(Stats.BATTLE_SALVAGE_MULT_FLEET).modifyFlat(id, n3);
+        //stats.getDynamic().getMod(Stats.BATTLE_SALVAGE_MULT_FLEET).modifyFlat(id, n3);
 	}
 
 }
